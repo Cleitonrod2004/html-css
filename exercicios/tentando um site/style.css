@@ -6,12 +6,10 @@
 }
 .cabecalho{
     background-color: rgb(32, 32, 32);
+    background-image: url(netflix.png);
+    background-repeat:no-repeat;
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-top: 20px;
-    height: 180px;
+    
 }
 nav>a:hover{
     color: brown;
@@ -41,3 +39,9 @@ main > p {
     font-size: 15px;
     text-align: justify;
 }
+.div{
+    border: 1px solid black;
+    background-image: url(netflix.png);
+    background-repeat: no-repeat;
+}
+
